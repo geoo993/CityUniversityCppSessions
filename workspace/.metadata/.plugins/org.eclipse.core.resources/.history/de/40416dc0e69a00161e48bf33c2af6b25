@@ -1,0 +1,60 @@
+//============================================================================
+// Name        : SessionFive.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int i = 3;
+	int j = 4;
+
+
+	int &ref = i;
+	int *pointer = &j; //reference is needed to refer to an Int, which in this case is reference to j
+
+
+
+
+	cout << "Ref: " << ref << endl;
+	cout << "Pointer: " << *pointer << endl;// pointer
+	cout << "Pointer Address: " << pointer << endl;//address of pointer
+
+	*pointer = *pointer + 50;
+	cout << "Pointer: " << *pointer << endl;//address of pointer
+
+
+	int arr[40];
+	int *p = arr;
+	cout << "Array: " << arr << endl;//address of array
+	cout << "Array Pointer: " << *p << endl;// array pointer
+
+	arr[0] = arr[0] + 8;
+
+	cout << "Array with first value: " << arr[0] << endl;//first element in array
+
+	*p = *p + 8;
+	cout << "Array Pointer first value: " << arr[0] << endl;//first element in array pointer
+
+
+
+
+	int arrr[] = { 1,2,3,4,5};
+	int *pp = arrr;
+
+	cout << "arrr == " << arrr[2] << endl;
+	cout << "2[arr] == " << 2[arrr] << endl;
+	cout << "pp == " << pp[2] << endl;
+	cout << "2[pp] == " << 2[pp] << endl;
+	cout << "pp + 2 == " << ( pp + 2 )<< endl;
+	cout << "arrr + 2 == " << ( arrr + 2 )<< endl;
+	cout << "*( arrr + 2 ) == " << *( arrr + 2 )<< endl;
+
+
+	return 0;
+}
