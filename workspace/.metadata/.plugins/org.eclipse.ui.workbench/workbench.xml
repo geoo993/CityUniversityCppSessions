@@ -39,7 +39,7 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SessionFive/src/SessionFive.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="563" selectionOffset="588" selectionTopPixel="56"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Julian.cpp" partName="Julian.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/CityUniversitySessions/workspace/Julian/src/Julian.cpp" title="Julian.cpp" tooltip="Julian/src/Julian.cpp" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Julian.cpp" partName="Julian.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/CityUniversityCppSessions/workspace/Julian/src/Julian.cpp" title="Julian.cpp" tooltip="Julian/src/Julian.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Julian/src/Julian.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="735" selectionTopPixel="0"/>
 </editor>
