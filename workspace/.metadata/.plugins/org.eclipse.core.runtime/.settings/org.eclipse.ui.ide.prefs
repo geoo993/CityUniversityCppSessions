@@ -1,4 +1,6 @@
-#Sat Oct 29 09:34:06 BST 2016
+#Sun Nov 27 12:30:20 GMT 2016
+IMPORT_FILES_AND_FOLDERS_MODE=prompt
+IMPORT_FILES_AND_FOLDERS_VIRTUAL_FOLDER_MODE=prompt
 eclipse.preferences.version=1
 TASKS_FILTERS_MIGRATE=true
 tipsAndTricks=true

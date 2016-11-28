@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="736" width="1243" x="67" y="23">
+<window height="613" width="1024" x="0" y="23">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -15,7 +15,7 @@
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="69" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="225" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -32,6 +32,7 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -44,9 +45,13 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Julian/src/Julian.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="735" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="SessionSix.cpp" partName="SessionSix.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/CityUniversity/CppSessions/workspace/SessionSix/src/SessionSix.cpp" title="SessionSix.cpp" tooltip="SessionSix/src/SessionSix.cpp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="SessionSix.cpp" partName="SessionSix.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/CityUniversity/CppSessions/workspace/SessionSix/src/SessionSix.cpp" title="SessionSix.cpp" tooltip="SessionSix/src/SessionSix.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SessionSix/src/SessionSix.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2174" selectionTopPixel="1434"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="SessionEight.cpp" partName="SessionEight.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/CityUniversity/CppSessions/workspace/SessionEight/src/SessionEight.cpp" title="SessionEight.cpp" tooltip="SessionEight/src/SessionEight.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SessionEight/src/SessionEight.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="427" selectionTopPixel="79"/>
 </editor>
 </editors>
 <views>
@@ -54,13 +59,13 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
 <view IMemento.internal.id="org.eclipse.cdt.ui.pdomSearchViewPage" definitionColumnWidth="150" locationColumnWidth="300" matchColumnWidth="300" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" showEnclosingDefinitions="true"/>
 </viewState>
 </view>
-<view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -220,16 +225,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Julian/src/Julian.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SessionFive/src/SessionFive.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SessionSix/src/SessionSix.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SessionEight/src/SessionEight.cpp"/>
 </editors>
-<item historyLabel="SessionThree.cpp" index="0">
-<position info="not_deleted" x="351" y="0"/>
-</item>
-<item historyLabel="SessionThree.cpp" index="0">
-<position info="not_deleted" x="369" y="0"/>
-</item>
-<item historyLabel="SessionThree.cpp" index="0">
-<position info="not_deleted" x="700" y="0"/>
-</item>
 <item historyLabel="SessionTwo.cpp" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
@@ -368,8 +365,17 @@
 <item historyLabel="SessionSix.cpp" index="9">
 <position/>
 </item>
-<item active="true" historyLabel="SessionSix.cpp" index="9">
+<item historyLabel="SessionSix.cpp" index="9">
 <position/>
+</item>
+<item historyLabel="SessionEight.cpp" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SessionEight.cpp" index="10">
+<position info="not_deleted" x="366" y="0"/>
+</item>
+<item active="true" historyLabel="SessionEight.cpp" index="10">
+<position info="not_deleted" x="478" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -388,6 +394,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SessionEight.cpp" tooltip="SessionEight/src/SessionEight.cpp">
+<persistable path="/SessionEight/src/SessionEight.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SessionSix.cpp" tooltip="SessionSix/src/SessionSix.cpp">
 <persistable path="/SessionSix/src/SessionSix.cpp"/>
 </file>
